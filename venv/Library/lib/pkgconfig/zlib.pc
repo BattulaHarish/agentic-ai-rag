@@ -1,0 +1,13 @@
+prefix=D:/agenticAIRAG/LangChain/venv/Library
+exec_prefix=D:/agenticAIRAG/LangChain/venv/Library
+libdir=D:/agenticAIRAG/LangChain/venv/Library/lib
+sharedlibdir=D:/agenticAIRAG/LangChain/venv/Library/lib
+includedir=D:/agenticAIRAG/LangChain/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
